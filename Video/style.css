@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: url('https://cdn.pixabay.com/photo/2015/11/10/08/31/banner-1036483_1280.jpg') no-repeat center center/cover;
+  position: relative;
+  color: #fff;
+  height: 70vh;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.site-title {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  position: relative;
+  padding: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+nav ul li .dropdown {
+  display: none;
+  position: absolute;
+  background: #fff;
+  color: #333;
+  top: 100%;
+  left: 0;
+  width: 250px;
+  list-style: none;
+  padding: 0;
+  z-index: 1000;
+}
+
+nav ul li:hover .dropdown {
+  display: block;
+}
+
+nav ul li .dropdown li {
+  border-bottom: 1px solid #ddd;
+}
+
+nav ul li .dropdown li a {
+  color: #333;
+  padding: 0.5rem 1rem;
+}
+
+.call-now a {
+  background: #4CAF50;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero {
+  text-align: center;
+  padding: 10rem 0;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.content {
+  padding: 2rem 0;
+}
+
+.content-layout {
+  display: flex;
+  align-items: center;
+}
+
+.content-layout img {
+  max-width: 50%;
+  height: auto;
+  margin-right: 2rem;
+}
+
+.content-layout div {
+  max-width: 50%;
+}
+
+.types {
+  background: #b8a9a9;
+  padding:5rem 0;
+}
+
+.types h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.annotation-types {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 4%;
+}
+
+.btn {
+  background: #4CAF50;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.btn:not(.active) {
+  background: #ddd; /* Default button color */
+  color: #333;
+}
+
+footer {
+  background: #003366;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+
+/* Footer Styles */
+footer {
+  background: #1366b9;
+  color: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-logo img {
+  width: 100px;
+  height: auto;
+  
+  
+}
+
+.footer-info {
+  max-width: 50%;
+  text-align: left;
+}
+
+.contact-details p {
+  margin: 5px 0;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-links img {
+  width: 25px;
+  height: 25px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+footer p {
+  margin-bottom: 0.5rem;
+  
+}
+
+/* New CSS for Footer Alignment */
+.footer-logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  margin-right: 10px;
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+}
+
+
+
+footer p {
+  margin-bottom: 0.5rem;
+}
